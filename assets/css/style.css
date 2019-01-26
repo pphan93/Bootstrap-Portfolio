@@ -7,6 +7,10 @@ h1 {
   color: #4aaaa5;
 }
 
+/*Portfolio
+Make text overlay the image
+----------------------------------------- */
+
 .image {
   margin-bottom: 30px;
   position: relative;
@@ -20,6 +24,7 @@ h1 {
 
 .image .text-overlay {
   position: absolute;
+  /*Adjust the position of the text in the image*/
   top: 75%;
   left: 0;
 }
@@ -36,20 +41,8 @@ h1 {
   text-align: center;
 }
 
-/* Sticky footer styles
+/* Navigation
 -------------------------------------------------- */
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 80px;
-  /* Margin bottom by footer height */
-  background-image: url("../images/background_img.png");
-}
-
 .active {
   background-color: #4aaaa5;
   color: white;
@@ -71,6 +64,20 @@ body {
   padding: auto;
 }
 
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 80px;
+  /* Margin bottom by footer height */
+  background-image: url("../images/background_img.png");
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -78,16 +85,6 @@ body {
   height: 50px;
   /* Set the fixed height of the footer here */
   line-height: 50px;
-  /* Vertically center the text there */
-  background-color: #f5f5f5;
 }
 
-/* Custom page CSS
-  -------------------------------------------------- */
-
-/* Not required for template or sticky footer method. 
   
-    .container {
-    width: auto;
-    padding: 0 15px;}
-  */
