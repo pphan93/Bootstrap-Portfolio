@@ -98,6 +98,13 @@ body {
     /*Adjust the position of the text in the image*/
     top: 70%;
   }
+
+  .active {
+    background-color: #fff;
+  }
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #4aaaa5;
+  }
 }
 
 @media only screen and (max-width: 764px) {
