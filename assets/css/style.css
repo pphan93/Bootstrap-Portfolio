@@ -105,6 +105,10 @@ body {
   .navbar-light .navbar-nav .nav-link.active {
     color: #4aaaa5;
   }
+
+  .nav-item {
+    padding: 0px 18px;
+  }
 }
 
 @media only screen and (max-width: 764px) {
