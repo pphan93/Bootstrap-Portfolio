@@ -31,8 +31,8 @@ Make text overlay the image
 
 .text-overlay p {
   position: relative;
-  font-size: 17px;
-  padding: 10px;
+  font-size: 15px;
+  padding: 2%;
   background: #4aaaa5bc;
   color: white;
 }
@@ -43,8 +43,12 @@ Make text overlay the image
 
 /* Navigation
 -------------------------------------------------- */
+
 .active {
   background-color: #4aaaa5;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
   color: white;
 }
 
@@ -87,4 +91,24 @@ body {
   line-height: 50px;
 }
 
-  
+/*--------------------------------*/
+
+@media only screen and (max-width: 990px) {
+  .image .text-overlay {
+    /*Adjust the position of the text in the image*/
+    top: 70%;
+  }
+}
+
+@media only screen and (max-width: 764px) {
+  .image .text-overlay {
+    /*Adjust the position of the text in the image*/
+    top: 80%;
+  }
+  .active {
+    background-color: #fff;
+  }
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #4aaaa5;
+  }
+}
